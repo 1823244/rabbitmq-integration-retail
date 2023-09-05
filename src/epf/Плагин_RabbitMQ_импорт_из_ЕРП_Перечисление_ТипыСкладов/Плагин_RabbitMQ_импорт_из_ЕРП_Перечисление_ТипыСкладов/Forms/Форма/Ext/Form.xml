@@ -25,16 +25,6 @@
 					<ContextMenu name="JsonTextКонтекстноеМеню" id="12"/>
 					<ExtendedTooltip name="JsonTextРасширеннаяПодсказка" id="13"/>
 				</InputField>
-				<LabelDecoration name="Декорация1" id="16">
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Чтобы загрузка отработала, нужно сначала удалить запись из РС "Мэппинг Складов (Кодерлайн)"</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="Декорация1КонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="18"/>
-				</LabelDecoration>
 				<Button name="ЗагрузитьИзJson" id="14">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ЗагрузитьИзJson</CommandName>
@@ -46,7 +36,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_ЕРП_Справочник_Склады</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Плагин_RabbitMQ_импорт_из_ЕРП_Перечисление_ТипыСкладов</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
