@@ -42,6 +42,31 @@
 			<CommandName>Form.Command.СоздатьТестовыйОбъект</CommandName>
 			<ExtendedTooltip name="СоздатьТестовыйОбъектРасширеннаяПодсказка" id="15"/>
 		</Button>
+		<UsualGroup name="Группа2" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузка за период</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<InputField name="ПериодВыгрузки" id="16">
+					<DataPath>ПериодВыгрузки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПериодВыгрузкиКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ПериодВыгрузкиРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<Button name="ВыгрузитьЗаПериод" id="21">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ВыгрузитьЗаПериод</CommandName>
+					<ExtendedTooltip name="ВыгрузитьЗаПериодРасширеннаяПодсказка" id="22"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -66,6 +91,20 @@
 			</Type>
 			<Save>
 				<Field>СсылочныйТип</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПериодВыгрузки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПериодВыгрузки</Field>
 			</Save>
 		</Attribute>
 	</Attributes>
@@ -99,6 +138,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьТестовыйОбъект</Action>
+		</Command>
+		<Command name="ВыгрузитьЗаПериод" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить за период</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить за период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьЗаПериод</Action>
 		</Command>
 	</Commands>
 </Form>
