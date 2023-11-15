@@ -65,6 +65,11 @@
 					<CommandName>Form.Command.ВыгрузитьЗаПериод</CommandName>
 					<ExtendedTooltip name="ВыгрузитьЗаПериодРасширеннаяПодсказка" id="22"/>
 				</Button>
+				<Button name="ВыгрузитьЗаПериодВерсия2" id="23">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ВыгрузитьЗаПериодВерсия2</CommandName>
+					<ExtendedTooltip name="ВыгрузитьЗаПериодВерсия2РасширеннаяПодсказка" id="24"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -153,6 +158,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьЗаПериод</Action>
+		</Command>
+		<Command name="ВыгрузитьЗаПериодВерсия2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить за период (Версия 2)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить за период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьЗаПериодВерсия2</Action>
 		</Command>
 	</Commands>
 </Form>
