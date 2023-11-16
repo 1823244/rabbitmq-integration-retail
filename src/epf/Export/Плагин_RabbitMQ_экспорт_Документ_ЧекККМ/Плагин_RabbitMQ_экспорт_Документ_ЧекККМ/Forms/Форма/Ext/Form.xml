@@ -72,6 +72,11 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="СоздатьОбъектыДляТестаЭкспорта" id="25">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СоздатьОбъектыДляТестаЭкспорта</CommandName>
+			<ExtendedTooltip name="СоздатьОбъектыДляТестаЭкспортаРасширеннаяПодсказка" id="26"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -173,6 +178,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьЗаПериодВерсия2</Action>
+		</Command>
+		<Command name="СоздатьОбъектыДляТестаЭкспорта" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать объекты для теста экспорта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать объекты для теста экспорта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьОбъектыДляТестаЭкспорта</Action>
 		</Command>
 	</Commands>
 </Form>
