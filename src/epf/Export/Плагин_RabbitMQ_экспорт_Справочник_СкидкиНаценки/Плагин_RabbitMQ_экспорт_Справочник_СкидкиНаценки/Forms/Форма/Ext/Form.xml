@@ -27,6 +27,7 @@
 				<InputField name="Номенклатура" id="3">
 					<DataPath>СсылочныйТип</DataPath>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
 					<ContextMenu name="НоменклатураКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="5"/>
 				</InputField>
