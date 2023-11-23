@@ -4,7 +4,7 @@
     "datetime": "2023-11-18T02:10:17",
     "identification": {
         "type": "Документ.ОперацияПоПлатежнойКарте",
-        "Ref": "760b9a91-468f-11ee-8bba-04ed33c124eb"
+        "Ref": "760b9a91-598f-22ee-8bba-04ed33c124eb"
     },
     "definition": {
         "DeletionMark": false,
