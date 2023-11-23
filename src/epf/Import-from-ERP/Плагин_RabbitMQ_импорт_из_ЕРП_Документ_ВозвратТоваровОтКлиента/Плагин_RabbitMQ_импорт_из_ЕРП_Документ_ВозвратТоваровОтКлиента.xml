@@ -16,7 +16,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Плагин_RabbitMQ_импорт_из_ЕРП_Документ_РеализацияТоваровУслуг</v8:content>
+					<v8:content>Плагин_RabbitMQ_импорт_из_ЕРП_Документ_ВозвратТоваровОтКлиента</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
